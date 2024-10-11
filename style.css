@@ -15,11 +15,30 @@ a{
     font-weight: 600;
     
 }
-
+.subtitle{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+}
 h1{
     font-family: "Playfair Display";
     font-weight: 800;
     font-size: 3.5rem;
+}
+h2{
+    font-family: "Playfair Display";
+    font-weight: 800;
+    font-size: 2rem;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 2rem;
+}
+h5{
+    padding: 0;
+    margin: 0;
+    margin-top: 5rem;
 }
 
 nav{
@@ -78,12 +97,16 @@ header a{
     background-color: #12BA9C;
     color: #EFE4CE;
 }
-
+.soft-orange{
+    color: #edaa45;
+}
+.soft-teal{
+    color: #12BA9C;
+}
 .button{
     padding: 0.9rem 1.5rem;
     text-decoration: none;
     border-radius: 1.5rem 1.5rem;
-
 }
 .card{
     background-color: #FAF9EF;
@@ -94,6 +117,9 @@ header a{
     padding-bottom: 2rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .card-vertical{
@@ -101,6 +127,7 @@ header a{
     padding-bottom: 1.5rem;
     padding-left: 1rem;
     padding-right: 1rem;
+    
 }
 
 section{
@@ -137,4 +164,18 @@ section{
     display: flex;
     gap: 1rem;
     justify-content: center;
+}
+.card-horizontal img{
+    width: 10rem;
+    height: auto;
+}
+
+.full-card{
+    padding: 2rem;
+    display: flex;
+}
+
+.full-card img{
+    width: 30rem;
+    height: auto;
 }
